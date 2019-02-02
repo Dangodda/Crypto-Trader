@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    android:orientation="vertical"
+    android:gravity="top|center">
+
+    <ImageView
+        android:id="@+id/uiLogo"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/bitcoin"
+        android:visibility="visible"
+        android:contentDescription="@string/btcImage"/>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="bottom|center">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="gameActivityClick"
+        android:layout_margin="5dp"
+        android:padding="20dp"
+        android:text="@string/play_game"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="highscoreActivityClick"
+        android:layout_margin="5dp"
+        android:padding="25dp"
+        android:text="@string/highscores"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="settingsActivityClick"
+        android:text="@string/settings"
+        android:layout_margin="5dp"
+        android:padding="25dp"/>
+    </LinearLayout>
+</LinearLayout>

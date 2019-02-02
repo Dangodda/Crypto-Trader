@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/uiPhoneButton"
+            android:onClick="onPhoneClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lifeline_1"/>
+
+        <Button
+            android:id="@+id/uiAskButton"
+            android:onClick="onAskClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lifeline_2"/>
+
+
+        <Button
+            android:id="@+id/uiFiftyButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="on5050Click"
+            android:text="@string/lifeline_3" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/uiQuestionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="20dp"
+            android:textAlignment="center"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/uiButtonSelectA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onAnswerClickA"/>
+
+        <Button
+            android:id="@+id/uiButtonSelectB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onAnswerClickB"/>
+
+        <Button
+            android:id="@+id/uiButtonSelectC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onAnswerClickC"/>
+
+        <Button
+            android:id="@+id/uiButtonSelectD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onAnswerClickD"/>
+
+        <TextView
+            android:id="@+id/uiScoreTextView"
+            android:text="No Score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

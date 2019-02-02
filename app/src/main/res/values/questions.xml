@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Easy Questions-->
+    <string name="equestion1">"What is the name of Poland in Polish??</string>
+    <string name="eanswer1a">Polska</string>
+    <string name="eanswer1b">Pupcia</string>
+    <string name="eanswer1c">Polszka</string>
+    <string name="eanswer1d">Poland</string>
+
+    <!--Medium Questions-->
+    <string name="mquestion1">e?</string>
+    <string name="manswer1a">e</string>
+    <string name="manswer1b">e</string>
+    <string name="manswer1c">e</string>
+    <string name="manswer1d">e</string>
+
+    <!--Hard Questions-->
+    <string name="hquestion1">What?</string>
+    <string name="hanswer1a">e</string>
+    <string name="hanswer1b">e</string>
+    <string name="hanswer1c">e</string>
+    <string name="hanswer1d">e</string>
+
+</resources>

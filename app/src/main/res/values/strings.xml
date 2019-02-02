@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Crypto Trader</string>
+
+    <!-- Home Page -->
+
+    <string name="play_game">Start Mining</string>
+    <string name="highscores">View Highscores</string>
+    <string name="settings">Settings</string>
+
+
+    <!-- Game Page -->
+
+    <string name="lifeline_1">Phone a Friend</string>
+    <string name="lifeline_2">Ask the Audience</string>
+    <string name="lifeline_3">50/50</string>
+
+    <!-- Highscores -->
+
+    <string name="highscorelabel">Highscores</string>
+    <string name="returnhome">Main Menu</string>
+
+    <string name="noEasyHighscore">No Easy Highscores</string>
+    <string name="noMediumHighscore">No Medium Highscores</string>
+    <string name="noHardHighscore">No Hard Highscores</string>
+
+
+    <!-- Game Over -->
+    <string name="scoreError">Score Error</string>
+    <string name="tryagain">Mine Again?</string>
+    <string name="playagain">Mine some more?</string>
+    <string name="gameover">Better Luck Next Time</string>
+    <string name="gamewin">Congratulations You are a CryptoMillionaire!</string>
+    <string name="title_activity_game">activity_game</string>
+    <string name="title_activity_game_over">activity_game_over</string>
+    <string name="title_activity_game_win">activity_game_win</string>
+    <string name="title_activity_high_score">activity_high_score</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Settings -->
+    <string name="resetscores">Reset Highscores</string>
+    <string name="confirmString">Use Answer confirmation?</string>
+    <string name="btcImage">BTC LOGO</string>
+    <string name="versionText">App version</string>
+    <string name="settingslabel">Settings</string>
+
+</resources>
